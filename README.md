@@ -1,7 +1,6 @@
+# PaxFlip V3 Professional
 
-# PaxFlip Professional - Clean Edition
-
-**Paxton Token to Flipper Zero Converter**
+**Paxton Token to Flipper Zero Converter - Version 3**
 
 ---
 
@@ -21,12 +20,13 @@ Developed by Jamie Johnson (TriggerHappyMe)
 
 ## 📋 Overview
 
-PaxFlip Professional Clean Edition is a streamlined version of the Paxton token converter, designed for professional security testing. This clean version focuses on the essential functionality:
+PaxFlip V3 Professional is the latest version of our professional Paxton token converter, designed for authorized security testing and penetration testing scenarios. This streamlined version focuses on essential functionality with enhanced user experience.
 
-- **Manual token input** and conversion
-- **Net2 service control** (requires administrator privileges)
-- **Flipper Zero file export** (.rfid format)
-- **Professional ISL branding** throughout
+**Version 3 Improvements:**
+- **Enhanced Window Sizing** - Properly displays all GUI elements (1100x850)
+- **Streamlined Interface** - Removed unnecessary sections for cleaner experience
+- **Professional Branding** - Complete ISL branding throughout
+- **Administrator Notifications** - Clear privilege requirements displayed
 
 ---
 
@@ -35,14 +35,21 @@ PaxFlip Professional Clean Edition is a streamlined version of the Paxton token 
 ### 🎯 Core Functionality
 - **Decimal to Hex Conversion** - Convert Paxton token numbers to 8-digit hex format
 - **Flipper Zero Export** - Save tokens as .rfid files for direct import
-- **Net2 Service Control** - Stop/start Net2ClientSvc service
-- **Professional Interface** - Clean, modern UI with ISL branding
+- **Net2 Service Control** - Stop/start Net2ClientSvc service (requires admin)
+- **Professional Interface** - Modern, card-based UI with ISL branding
 
 ### 🔧 Technical Features
 - **EM4100 Format** - Compatible with Flipper Zero RFID emulation
 - **File Preview** - Preview .rfid file content before saving
 - **Clipboard Integration** - Copy hex codes directly to clipboard
 - **Error Handling** - Comprehensive input validation and error messages
+- **Responsive Design** - Properly sized window that displays all elements
+
+### 🆕 Version 3 Enhancements
+- **Optimized Window Size** - 1100x850 pixels for complete visibility
+- **Clean Interface** - Removed FTDI USB reader and status sections
+- **Administrator Alerts** - Clear notifications for privilege requirements
+- **V3 Branding** - Updated titles, class names, and documentation
 
 ---
 
@@ -55,9 +62,9 @@ PaxFlip Professional Clean Edition is a streamlined version of the Paxton token 
 
 ### Installation
 1. **Extract** all files to a folder on your Windows machine
-2. **Right-click** `PaxFlip_Clean_ISL.bat` → **"Run as administrator"**
+2. **Right-click** `PaxFlip_V3.bat` → **"Run as administrator"**
 3. The batch file will automatically install required Python packages
-4. **PaxFlip Professional** will launch automatically
+4. **PaxFlip V3 Professional** will launch automatically
 
 ### Usage
 1. **Enter** a Paxton token number (decimal format)
@@ -70,27 +77,32 @@ PaxFlip Professional Clean Edition is a streamlined version of the Paxton token 
 
 ## 📁 Package Contents
 
-- **PaxFlip_Clean_ISL.py** - Main application (clean version)
-- **PaxFlip_Clean_ISL.bat** - One-click launcher with dependency checking
-- **requirements_clean.txt** - Python package requirements
-- **README_Clean_ISL.md** - This documentation file
+- **PaxFlip_V3.py** - Main application (Version 3)
+- **PaxFlip_V3.bat** - One-click launcher with dependency checking
+- **requirements_V3.txt** - Python package requirements
+- **README_PaxFlip_V3.md** - This documentation file
 - **isl_logo.jpg** - Intercom Services London logo
 
 ---
 
-## 🎯 Key Differences from Full Version
+## 🎯 Version 3 Changes
 
-This **Clean Edition** removes:
-- ❌ FTDI USB reader functionality
-- ❌ Status & information sections
-- ❌ Complex USB communication code
+### ✅ **What's New:**
+- **Enhanced Window Size** - Increased from 900x650 to 1100x850
+- **V3 Branding** - Updated titles, class names, and version references
+- **Administrator Notifications** - Clear privilege requirement warnings
+- **Streamlined Interface** - Removed unnecessary sections for focus
 
-This **Clean Edition** includes:
-- ✅ Manual token input and conversion
-- ✅ Net2 service control with administrator note
-- ✅ Flipper Zero file export
-- ✅ Professional ISL branding
-- ✅ Streamlined, focused interface
+### ❌ **What's Removed:**
+- FTDI USB reader functionality (streamlined for manual input)
+- Status & information sections (cleaner interface)
+- Complex USB communication code (simplified codebase)
+
+### 🔧 **What's Improved:**
+- Better window sizing for complete element visibility
+- Enhanced error handling and user feedback
+- Professional ISL branding throughout
+- Cleaner, more focused user experience
 
 ---
 
@@ -113,6 +125,13 @@ Data: 00 BC 61 4E
 - **Service Name:** Net2ClientSvc
 - **Purpose:** Prevents conflicts with Paxton software
 - **Requirement:** Administrator privileges needed
+- **Visual Indicator:** Warning displayed in interface
+
+### Window Specifications
+- **Size:** 1100x850 pixels
+- **Resizable:** Yes
+- **Centered:** Automatically centers on screen
+- **Compatibility:** Works on 1920x1080 and higher resolutions
 
 ---
 
@@ -122,6 +141,7 @@ Data: 00 BC 61 4E
 1. **"Not running as administrator"** - Right-click batch file → "Run as administrator"
 2. **"Python not found"** - Install Python from https://python.org
 3. **Service control fails** - Ensure running as administrator
+4. **GUI elements cut off** - V3 fixes this with larger window size
 
 ### Contact Support
 - **Email:** support@intercomserviceslondon.co.uk
@@ -143,13 +163,36 @@ This software is designed for authorized security testing and research purposes 
 
 ## 🔄 Version History
 
-- **v1.0** - Initial clean edition release
-- **Features:** Manual input, Net2 service control, Flipper export
-- **UI:** Professional ISL branding, streamlined interface
-- **Requirements:** Administrator privileges note added
+### **Version 3.0** (Current)
+- **Enhanced window sizing** - 1100x850 for complete visibility
+- **Streamlined interface** - Removed unnecessary sections
+- **V3 branding** - Updated throughout application
+- **Administrator notifications** - Clear privilege requirements
+- **Professional polish** - Enhanced user experience
+
+### **Previous Versions**
+- **v2.x** - Added FTDI USB reader support
+- **v1.x** - Initial release with basic functionality
+
+---
+
+## 🎯 Use Cases
+
+### **Professional Security Testing**
+- Authorized penetration testing engagements
+- Security assessments of access control systems
+- Red team exercises with proper authorization
+- Security research and development
+
+### **Compatible Hardware**
+- Flipper Zero RFID emulation
+- EM4100 compatible readers
+- Paxton access control systems
+- Security testing equipment
 
 ---
 
 *For the latest updates and full documentation, visit our GitHub repository: https://github.com/ISLKey/PaxFlip*
 
+**PaxFlip V3 Professional - The definitive tool for professional Paxton token conversion and Flipper Zero integration.**
 
